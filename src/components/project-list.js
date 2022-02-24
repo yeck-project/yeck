@@ -3,24 +3,19 @@ import React from "react";
 export default function ProjectList() {
   return (
   <section class="relative bg-gray-800 py-20 2xl:py-40 overflow-hidden">
-    <div class="relative max-w-4xl px-4 lg:px-0 mx-auto py-10">
-      <div class="max-w-xl mb-14 lg:mb-28">
-        <span class="text-lg text-blue-400 font-semibold">Our Works</span>
+    <div class="container px-4 mx-auto">
+      <div class="max-w-xl mb-14 lg:mb-20">
+        <span class="text-lg text-blue-400 font-semibold">Projects</span>
         <h2 class="mt-8 text-5xl text-white font-bold font-heading">More than 20 years in the game</h2>
       </div>
+    </div>
+    <div class="relative max-w-4xl px-4 lg:px-0 mx-auto py-10">
       <div class="relative">
-        <div class="hidden lg:block absolute top-0 left-0 -ml-80">
-          <img class="-ml-24 w-112 h-96 object-cover" src="https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=967&amp;q=80" alt=""/>
-        </div>
-        <div class="hidden lg:block absolute top-0 right-0 -mr-80">
-          <img class="-mr-52 w-112 h-96 object-cover" src="https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=967&amp;q=80" alt=""/>
-        </div>
         <div class="relative max-w-4xl mx-auto">
           <img class="w-full h-96 mb-12 object-cover" src="https://images.unsplash.com/photo-1617791160505-6f00504e3519?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1100&amp;q=80" alt=""/>
           <div class="flex flex-wrap -mx-5">
             <div class="w-full lg:w-4/5 px-5 mb-6 lg:mb-0">
               <div class="relative py-12 px-10 lg:px-20 bg-gray-600 rounded-xl">
-                <div class="absolute top-0 -mt-6 left-0 ml-16 w-14 h-14 bg-gray-600"></div>
                 <h3 class="mb-6 text-4xl text-white font-bold font-heading">Experience design for your products</h3>
                 <p class="text-lg text-gray-300">The brown fox jumps over the lazy dog.</p>
               </div>

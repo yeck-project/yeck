@@ -2,20 +2,16 @@ import React from "react";
 
 export default function Contact() {
   return (
-<section class="relative py-20 2xl:py-40 bg-gray-800 overflow-hidden">
-  <img class="absolute top-0 right-0 h-24 lg:h-32 lg:mr-24 mt-12" src="zospace-assets/images/stars.svg" alt=""/>
-  <img class="absolute bottom-0 right-0 -mr-64 -mb-64" src="zospace-assets/lines/circle.svg" alt=""/>
-  <img class="absolute bottom-0 left-0 w-64 lg:w-112" src="zospace-assets/lines/circle-gray-half.svg" alt=""/>
-  <img class="absolute bottom-0 left-0 w-128 h-128 -mb-72" src="zospace-assets/lines/circle.svg" alt=""/>
+<section class="relative py-20 2xl:py-40 bg-gray-900 overflow-hidden">
   <div class="relative container px-4 mx-auto">
-    <div class="text-center mb-12">
+    <div class="text-left mb-8">
       <span class="text-lg font-bold text-blue-400">Contact</span>
       <h2 class="mt-12 mb-10 text-5xl text-white font-bold font-heading">Connect with our team</h2>
-      <p class="max-w-md mx-auto text-lg text-gray-300">A short message that will bring your customers into the world of your imagination.</p>
+      <p class="max-w-md text-lg text-gray-300">A short message that will bring your customers into the world of your imagination.</p>
     </div>
     <div class="flex flex-wrap -mx-4 mb-20">
       <div class="w-full lg:w-1/3 px-4 mb-6 lg:mb-0">
-        <div class="py-10 px-12 h-full bg-gray-500 rounded-lg">
+        <div class="py-10 px-12 h-full bg-blue-600 rounded-lg">
           <div class="flex flex-wrap -mx-2">
             <div class="w-full md:w-auto lg:w-1/3 px-2">
               <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 mr-8 bg-blue-500 rounded-full">
@@ -33,7 +29,7 @@ export default function Contact() {
         </div>
       </div>
       <div class="w-full lg:w-1/3 px-4 mb-6 lg:mb-0">
-        <div class="py-10 px-12 h-full bg-gray-500 rounded-lg">
+        <div class="py-10 px-12 h-full bg-blue-600 rounded-lg">
           <div class="flex flex-wrap -mx-2">
             <div class="w-full md:w-auto lg:w-1/3 px-2">
               <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 mr-8 bg-blue-500 rounded-full">
@@ -50,7 +46,7 @@ export default function Contact() {
         </div>
       </div>
       <div class="w-full lg:w-1/3 px-4">
-        <div class="py-10 px-12 h-full bg-gray-500 rounded-lg">
+        <div class="py-10 px-12 h-full bg-blue-600 rounded-lg">
           <div class="flex flex-wrap -mx-2">
             <div class="w-full md:w-auto lg:w-1/3 px-2">
               <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 mr-8 bg-blue-500 rounded-full">
@@ -67,7 +63,6 @@ export default function Contact() {
         </div>
       </div>
     </div>
-    <div class="text-center"><a class="inline-block py-4 px-12 text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200" href="#">How it works?</a></div>
   </div>
 </section>
   )

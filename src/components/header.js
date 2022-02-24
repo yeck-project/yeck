@@ -1,65 +1,20 @@
 import React from "react";
 
 export default function Header() {
+  const imageBackground = 'https://res.cloudinary.com/yet/image/upload/v1645725824/yet/wave-haikei_ass1wu.png';
+  const imageSeb = 'https://res.cloudinary.com/yet/image/upload/v1645724484/yet/photo_seb_dra7nz.png';
   return (
-<section class="pb-20 bg-gray-800">
-  <nav class="relative">
-    <div class="flex py-8 px-4 lg:px-8 justify-between items-center">
-      <a class="text-2xl text-white font-bold" href="#">
-        <img class="h-7" src="zospace-assets/logos/zospace-logo.svg" alt="" width="auto"/>
-      </a>
-      <div class="lg:hidden">
-        <button class="p-2 navbar-burger">
-          <svg class="w-10 h-3" width="39" height="13" viewBox="0 0 39 13" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="39" height="2" rx="1" fill="#C4C4C4"></rect><rect x="19" y="11" width="20" height="2" rx="1" fill="#C4C4C4"></rect></svg>
-        </button>
-      </div>
-      <div class="hidden lg:block absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
-        <ul class="flex items-center text-white space-x-10">
-          <li><a class="text-white font-bold text-lg" href="#">Product</a></li>
-          <span>
-            <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="2.5" cy="2.5" r="2.5" fill="#726B6B"></circle></svg>
-          </span>
-          <li><a class="text-white font-bold text-lg" href="#">Story</a></li>
-          <span>
-            <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="2.5" cy="2.5" r="2.5" fill="#726B6B"></circle></svg>
-          </span>
-          <li><a class="text-white font-bold text-lg" href="#">Features</a></li>
-          <span>
-            <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="2.5" cy="2.5" r="2.5" fill="#726B6B"></circle></svg>
-          </span>
-          <li><a class="text-white font-bold text-lg" href="#">Contact</a></li>
-        </ul>
-      </div>
-      <div class="hidden lg:block"><a class="inline-block px-12 py-4 text-white font-bold border border-gray-200 hover:border-white rounded-full" href="#">Sign Up</a></div>
-    </div>
-  </nav>
+<section class="pb-20 bg-gray-900	">
   <div class="relative container px-4 pt-12 md:pt-20 mx-auto">
     <div class="flex flex-wrap items-center -mx-4 mb-20 2xl:mb-14">
       <div class="w-full lg:w-1/2 px-4 mb-16 lg:mb-0">
-        <span class="text-lg font-bold text-blue-400">Teams Together</span>
-        <h2 class="max-w-2xl mt-12 mb-12 text-6xl 2xl:text-8xl text-white font-bold font-heading">Bring your team together. Right here.</h2>
-        <p class="mb-12 lg:mb-16 2xl:mb-24 text-xl text-gray-100">The quick brown fox jumps over the lazy dog.</p>
-        <a class="inline-block px-12 py-5 text-lg text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200" href="#">Learn how</a>
+        <span class="text-lg font-bold text-blue-400">About Me</span>
+        <h2 class="max-w-2xl mt-12 mb-8 text-6xl 2xl:text-6xl text-white font-bold font-heading">Hi, I'm Sébastien Payet</h2>
+        <p class="mb-12 lg:mb-16 2xl:mb-24 text-xl text-gray-100">I am a full stack developer with a focus on JavaScript Technologies. I build website, ecommerce site and mobile app.</p>
+        <a class="inline-block px-12 py-5 text-lg text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200" href="#">Let's get in touch</a>
       </div>
-      <div class="w-full lg:w-1/2 px-4">
-        <img class="w-full" src="zospace-assets/images/men-circle-stars.png" alt=""/>
-      </div>
-    </div>
-    <div class="max-w-4xl mx-auto -mb-12 flex flex-wrap items-center justify-center">
-      <div class="w-1/2 md:w-1/3 lg:w-1/5 px-2 mb-12">
-        <img class="h-8 mx-auto" src="zospace-assets/logos/brands/nike.svg" alt=""/>
-      </div>
-      <div class="w-1/2 md:w-1/3 lg:w-1/5 px-2 mb-12">
-        <img class="h-8 mx-auto" src="zospace-assets/logos/brands/marvel.svg" alt=""/>
-      </div>
-      <div class="w-1/2 md:w-1/3 lg:w-1/5 px-2 mb-12">
-        <img class="h-8 mx-auto" src="zospace-assets/logos/brands/airbnb.svg" alt=""/>
-      </div>
-      <div class="w-1/2 md:w-1/3 lg:w-1/5 px-2 mb-12">
-        <img class="h-8 mx-auto" src="zospace-assets/logos/brands/facebook.svg" alt=""/>
-      </div>
-      <div class="w-1/2 md:w-1/3 lg:w-1/5 px-2 mb-12">
-        <img class="h-8 mx-auto" src="zospace-assets/logos/brands/tesla.svg" alt=""/>
+      <div class="w-full lg:w-1/2 px-2">
+        <img class="w-full" src={imageSeb} alt=""/>
       </div>
     </div>
   </div>

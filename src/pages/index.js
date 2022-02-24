@@ -5,6 +5,7 @@ import ProjectList from "../components/project-list";
 import Contact from "../components/contact";
 import { HelmetDatoCms } from "gatsby-source-datocms";
 import { graphql } from "gatsby";
+import Services from "../components/services";
 
 export default function Index({ data: { allPosts, site, blog } }) {
   const heroPost = allPosts.nodes[0];
@@ -13,6 +14,7 @@ export default function Index({ data: { allPosts, site, blog } }) {
   return (
     <>
       <Header/>
+      <Services/>
       <Technologies/>
       <ProjectList/>
       <Contact/>
