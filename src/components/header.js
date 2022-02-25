@@ -1,10 +1,12 @@
 import React from "react";
+import HeaderNav from "./headerNav";
 
 export default function Header() {
   const imageBackground = 'https://res.cloudinary.com/yet/image/upload/v1645725824/yet/wave-haikei_ass1wu.png';
   const imageSeb = 'https://res.cloudinary.com/yet/image/upload/v1645724484/yet/photo_seb_dra7nz.png';
   return (
 <section class="pb-20 bg-gray-900	">
+  <HeaderNav/>
   <div class="relative container px-4 pt-12 md:pt-20 mx-auto">
     <div class="flex flex-wrap items-center -mx-4 mb-20 2xl:mb-14">
       <div class="w-full lg:w-1/2 px-4 mb-16 lg:mb-0">

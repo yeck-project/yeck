@@ -1,26 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 
-export default function Header() {
+export default function HeaderNav() {
+  const handleClickContact = () => {
+    var elementContact = document.getElementById("contact");
+    elementContact.scrollIntoView({ behavior: 'smooth', block: 'end'});
+  };
+
+
   return (
 <>
-  <nav class="relative">
-    <div class="flex py-8 px-4 lg:px-8 justify-between items-center">
-      <a class="text-2xl text-white font-bold" href="#">
-        <img class="h-7" src="zospace-assets/logos/zospace-logo.svg" alt="" width="auto"/>
-      </a>
-      <div class="lg:hidden">
-        <button class="p-2 navbar-burger">
-          <svg class="w-10 h-3" width="39" height="13" viewBox="0 0 39 13" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="39" height="2" rx="1" fill="#C4C4C4"></rect><rect x="19" y="11" width="20" height="2" rx="1" fill="#C4C4C4"></rect></svg>
-        </button>
-      </div>
-      <div class="hidden lg:block absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
-        <ul class="flex items-center text-white space-x-10">
-          <li><a class="text-white font-bold text-lg" href="#">Technologies</a></li>
-          <li><a class="text-white font-bold text-lg" href="#">Projects</a></li>
-          <li><a class="text-white font-bold text-lg" href="#">Contact</a></li>
-        </ul>
-      </div>
-      <div class="hidden lg:block"><a class="inline-block px-12 py-4 text-white font-bold border border-gray-200 hover:border-white rounded-full" href="#">Sign Up</a></div>
+  <nav>
+    <div class="container flex items-center p-6 mx-auto text-white capitalize text-lg">
+        <a onClick={handleClickContact} class="border-b-2 border-transparent transition-colors duration-200 transform hover:border-blue-500 mr-6">Services</a>
+        <a href="#project" class="border-b-2 border-transparent transition-colors duration-200 transform hover:border-blue-500 mr-6">Projects</a>
+        <a href="#contact" class="border-b-2 border-transparent transition-colors duration-200 transform hover:border-blue-500 mr-6">Contact</a>
     </div>
   </nav>
 </>
